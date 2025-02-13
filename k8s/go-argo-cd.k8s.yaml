@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
         - name: myapp
+          imagePullPolicy: Always
           image: idbrnd/go-argo-cd:test
           ports:
             - containerPort: 3009
